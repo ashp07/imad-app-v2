@@ -13,12 +13,12 @@ app.get('/article-one' function (req,res){
     res.send("Article one function is called");
 });
 
-app.get('/article-one' function (req,res){
-    res.send("Article one function is called");
+app.get('/article-two' function (req,res){
+    res.send("Article two function is called");
 });
 
-app.get('/article-one' function (req,res){
-    res.send("Article one function is called");
+app.get('/article-three' function (req,res){
+    res.send("Article three function is called");
 });
 
 app.get('/ui/style.css', function (req, res) {
