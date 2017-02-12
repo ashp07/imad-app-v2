@@ -6,7 +6,7 @@ element.innerHTML=' Testing javascript' ;
 
 //try to drag the image in browser
 var img = document.getElementById('madi');
-img.onclick = function ()
+img.onclick = function()
  {
      img.style.marginLeft = '100px';
  };
