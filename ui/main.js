@@ -8,5 +8,5 @@ element.innerHTML=' Testing javascript' ;
 var image = document.getElementById('madi');
 image.onClick =function()
  {
-     image.style.marginLeft='1000px';
+     image.style.marginLeft='100px';
  };
