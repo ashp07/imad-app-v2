@@ -87,7 +87,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/profile.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'profile'));
+  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
 app.get('/ui/main.js', function (req, res) {
