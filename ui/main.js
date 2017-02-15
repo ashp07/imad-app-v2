@@ -1,20 +1,14 @@
-console.log('Loaded!');
-
-//doing some changing
-var element = document.getElementById('main-text');
-element.innerHTML=' Testing javascript' ;
-
-//try to drag the image in browser
-var img = document.getElementById('madi');
-
-var marginLeft = 0;
-function moveRight()
+// counter
+var button=document.getElementById("counter");
+var.counter=0;
+button.onClick= function()
 {
-marginLeft = marginLeft + 1 ;
-img.style.marginLeft = marginLeft + 'px';
-}
-
-img.onclick = function()
- {
-     var interval = setInterval(moveRight, 50);
- };
+    
+    
+    
+    
+    //Rendering
+    count=count+1
+    var span=document.getElementById("count");
+    span.innerHTML=counter.toString();
+};
