@@ -7,7 +7,7 @@ button.onclick = function()
     var request=new XMLHttpRequest();
     
     //Capture the Response
-    request.onReadyStateChange = function()
+    request.onreadystatechange = function()
     {
         if(request.readyState == XMLHttpRequest.DONE)
         {
@@ -35,7 +35,7 @@ button.onclick = function()
        var request=new XMLHttpRequest();
     
        //Capture the Response
-       request.onReadyStateChange = function()
+       request.onreadystatechange = function()
        {
         if(request.readyState == XMLHttpRequest.DONE)
         {
